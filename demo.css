@@ -1,2 +1,14 @@
 * {}
 body { font-family: Helvetica, Arial, Verdana, sans-serif; font-weight: 300; font-size: 0.9em; }
+h2, h3 {
+  clear: both;
+  margin-top: 15px;
+}
+
+.notification {
+    margin-right: 30px;
+}
+section {
+  padding: 10px;
+  margin-bottom: 20px;
+}
