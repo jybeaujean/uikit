@@ -99,6 +99,22 @@
 }
 
 
+/*** Button warning **/
+.button.warning {
+  color: #ffffff;
+  background-color: #f7722d;
+  border-color: #b65522; }
+
+.button.warning:hover,
+.button.warning:focus,
+.button.warning:active,
+.button.warning.active {
+  background-color: #f6862e;
+  border-color: #b65522; 
+}
+
+
+
 
 /************************************************** FORMS *****************************************/
 div.row {
@@ -118,7 +134,6 @@ input[type=text], input[type=password], input[type=email], textarea, select {
   padding: 5px 9px;
   border: solid 1px #e1e1e1;
   outline: 0;
-  width: 230px;
   background-color: #f8f8f8;
   border-radius: 4px; 
   color: #636363;
@@ -141,13 +156,13 @@ input.error, textarea.error, select.error {
 
 
 /* color for placeholder */
-.errorform::-webkit-input-placeholder {
+.error::-webkit-input-placeholder {
   color: red; }
 
-.errorform:-moz-placeholder {
+.error:-moz-placeholder {
   color: red; }
 
-.errorform:-ms-input-placeholder {
+.error:-ms-input-placeholder {
   color: red; }
 
 /* Tags */
