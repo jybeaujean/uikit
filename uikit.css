@@ -130,7 +130,7 @@ div.row label {
 	text-align: right;  
 }  
 
-input[type=text], input[type=password], input[type=email], textarea, select {
+input[type=text], input[type=password], input[type=email],input[type=number], textarea, select {
   padding: 5px 9px;
   border: solid 1px #e1e1e1;
   outline: 0;
